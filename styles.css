@@ -1,0 +1,26 @@
+/* ESTILO GLOBAL */
+
+
+body{
+    background-image: url("./assets/img/bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+
+/* ESTILO NA PÁGINA PRINCIPAL */
+#page{
+width: 800px;
+margin: 48px auto 100px;
+padding: 24px;
+border-radius: 24px;
+background-color: #F0E8C2;
+box-sizing: border-box;
+
+}
+
+
+img{
+    border-radius: 16px;
+}

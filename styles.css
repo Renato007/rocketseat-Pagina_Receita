@@ -1,51 +1,71 @@
 /* ESTILO GLOBAL */
-:root{
-    font-family: "Alice", serif;
-    line-height: 1.5;
-    color: #573A37;
-    text-align: justify;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background-image: url("./assets/img/bg-image.jpg");
-    background-size: cover;
-    background-position: center;
-    /* background-repeat: no-repeat; */
+:root {
+  font-family: "Alice", serif;
+  line-height: 1.5;
+  color: #573a37;
+  text-align: justify;
 }
 
+body {
+  background-image: url("./assets/img/bg-image.jpg");
+  background-size: cover;
+}
 
 /* ESTILO NA PÁGINA PRINCIPAL */
-#page{
-width: 800px;
-margin: 48px auto 100px;
-padding: 24px;
-border-radius: 24px;
-background-color: #F0E8C2;
-box-sizing: border-box;
-
+#page {
+  width: 800px;
+  margin: 48px auto;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: #f0e8c2;
+  box-sizing: border-box;
 }
 
-img{
-    border-radius: 16px;
+main{
+    padding: 24px;
+}
+section + section{
+  margin-top: 24px;
 }
 
-h1{
-    font-size: 40px;
-    line-height: 1.4;
+#about p + p{
+    margin-top: 12px;
 }
 
-h2{
-    font-size: 24px;
-
+img {
+  border-radius: 16px;
+  width: 705px;
 }
 
-h1, h2{
-    color: #573A37;
+h1 {
+  font-size: 40px;
+  line-height: 1.4;
 }
 
-ul{
-    background-image: url("./assets/img/icnos/cupcake-icon.png");
-    background-size: contain;
-    background-repeat: repeat-y;
-    background-position: right center ;
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  color: #573a37;
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+ul {
+  background-image: url("./assets/img/icnos/cupcake-icon.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: right center;
+  padding-left: 24px;
+}
+
+li {
+  list-style-type:circle;
 }
